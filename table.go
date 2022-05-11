@@ -461,10 +461,6 @@ func (t *Table) printLineOptionalCellSeparators(nl bool, displayCellSeparator []
         lastHasBorder = nextHasBorder
     }
     switch {
-    case nextHasBorder && lastHasBorder:
-        fmt.Fprint(t.out, CENTER_ALL)
-    case nextHasBorder:
-        fmt.Fprint(t.out, CENTER_NES)
     case lastHasBorder:
         fmt.Fprint(t.out, CENTER_NSW)
     default:
