@@ -5,11 +5,11 @@ Generate ASCII table on the fly via command line ...  Installation is simple as
 
 #### Get Tool
 
-    go get  github.com/olekukonko/tablewriter/csv2table
+    go get  github.com/liamg/tablewriter/csv2table
 
 #### Install Tool
 
-    go install  github.com/olekukonko/tablewriter/csv2table
+    go install  github.com/liamg/tablewriter/csv2table
 
 
 #### Usage

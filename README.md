@@ -1,13 +1,13 @@
 ASCII Table Writer
 =========
 
-[![ci](https://github.com/olekukonko/tablewriter/workflows/ci/badge.svg?branch=master)](https://github.com/olekukonko/tablewriter/actions?query=workflow%3Aci)
-[![Total views](https://img.shields.io/sourcegraph/rrc/github.com/olekukonko/tablewriter.svg)](https://sourcegraph.com/github.com/olekukonko/tablewriter)
-[![Godoc](https://godoc.org/github.com/olekukonko/tablewriter?status.svg)](https://godoc.org/github.com/olekukonko/tablewriter)
+[![ci](https://github.com/liamg/tablewriter/workflows/ci/badge.svg?branch=master)](https://github.com/liamg/tablewriter/actions?query=workflow%3Aci)
+[![Total views](https://img.shields.io/sourcegraph/rrc/github.com/liamg/tablewriter.svg)](https://sourcegraph.com/github.com/liamg/tablewriter)
+[![Godoc](https://godoc.org/github.com/liamg/tablewriter?status.svg)](https://godoc.org/github.com/liamg/tablewriter)
 
 Generate ASCII table on the fly ...  Installation is simple as
 
-    go get github.com/olekukonko/tablewriter
+    go get github.com/liamg/tablewriter
 
 
 #### Features
@@ -404,7 +404,7 @@ import (
     "strings"
     "fmt"
 
-    "github.com/olekukonko/tablewriter"
+    "github.com/liamg/tablewriter"
 )
 
 func main() {
