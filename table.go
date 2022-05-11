@@ -526,7 +526,7 @@ func (t *Table) printHeading() {
                 h = t.headers[y][x]
             }
             if t.autoFmt {
-                h = Title(h)
+                h = fmt.Sprintf("\x1b[1m%s\x1b[0m", Title(h))
             }
             pad := COLUMN
             if t.noWhiteSpace {
